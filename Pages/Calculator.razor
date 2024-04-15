@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<PageTitle>Calculator</PageTitle>
+
+<h1>Calculator</h1>
+<h2>Current input: @displayEquation</h2>
+<h2>Result = @result</h2>
+<div class="calc">
+    @for(int i = 0; i < 10; i++)
+    {
+        int num = i; // this variable is necessary due to how c# handles variables in memory
+        <button @onclick="() => InputNum(num)">@num</button>
+    }
+
+    <button @onclick="Add">+</button>
+    <button @onclick="Sub">-</button>
+    <button @onclick="Div">/</button>
+    <button @onclick="Mul">*</button>
+    <button @onclick="Clear">C</button>
+    <button @onclick="Equals">=</button>
+
+</div>

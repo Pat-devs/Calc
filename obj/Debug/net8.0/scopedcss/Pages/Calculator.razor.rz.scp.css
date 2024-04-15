@@ -1,0 +1,51 @@
+.calc[b-oxri85akat] {
+    display: grid;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Sets up a 3-column layout */
+    gap: 10px; /* Increases the gap for better spacing */
+    background-color: #f4f4f9; /* Light gray background */
+    border-radius: 10px; /* Rounded corners for the calculator */
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1); /* Adds subtle shadow */
+}
+button[b-oxri85akat] {
+    background-color: #ffffff; /* White background color for buttons */
+    border: 1px solid #333; /* No border */
+    padding: 15px 0; /* Top and bottom padding */
+    font-size: 1.5rem; /* Larger font size */
+    color: #333333; /* Dark gray color for text */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Cursor indicates clickable item */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for interactions */
+}
+
+button:hover[b-oxri85akat] {
+    background-color: #e4e4e7; /* Light gray background on hover */
+}
+
+button:active[b-oxri85akat] {
+    transform: scale(0.98); /* Slightly shrink when clicked */
+}
+.operator[b-oxri85akat] {
+    background-color: #007BFF; /* Blue background for operators */
+    color: white; /* White text for better contrast */
+}
+
+.operator:hover[b-oxri85akat] {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.function[b-oxri85akat] {
+    background-color: #FFC107; /* Amber background for functions like clear and equals */
+    color: white; /* White text */
+}
+
+.function:hover[b-oxri85akat] {
+    background-color: #e0a800; /* Darker amber on hover */
+}
+
+h2[b-oxri85akat] {
+    font-size: 1.25rem;
+}
+
